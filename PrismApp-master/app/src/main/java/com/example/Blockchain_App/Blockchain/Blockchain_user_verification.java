@@ -58,7 +58,16 @@ public class Blockchain_user_verification extends AppCompatActivity
 
     @RequiresApi(api = Build.VERSION_CODES.M)
 
+/*
+    concern: if the user is anyway not added to the N/W even after the login then there is no
+    point in implementing another flow for verification,
 
+    suggestion :
+                lets have one registration flow and when the user submits image for registration
+                that same information we can take and implement the verification flow (as Abstract)
+                no need for a separate button.
+
+ */
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
