@@ -98,10 +98,7 @@ public class Blockchain_user_registration extends AppCompatActivity
 
 
     }
-/*
-    TODO:   get  logged in username and replace that with someData
 
- */
 
     private void uploadImage()
     {
